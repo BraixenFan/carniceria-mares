@@ -1,0 +1,53 @@
+@media (max-width: 85em) {
+  .meat-showcase{
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .contact-us{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 63em) {
+  .meat-showcase{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 47em) {
+  .contact-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 43em) {
+  .meat-showcase{
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container{
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2.4rem;
+  }
+
+  .footer-logo-col{
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 27em) {
+  .footer-container{
+    grid-template-columns: 1fr;
+    padding: 0 2.4rem;
+  }
+  .footer-logo-col{
+    grid-column: span 1;
+  }
+  .contact-text p{
+    font-size: 2.4rem;
+  }
+  .heading-contact{
+    font-size: 3.6rem;
+  }
+}
