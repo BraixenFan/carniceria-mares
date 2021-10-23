@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Carniceria</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo-top" alt="Logo de la carniceria" src="img/mares-logo.png" />
+  </header>
+
+  <section class="section-presentation">
+    <div class="presentation">
+      <h1 class="heading-primary">
+        Carniceria mares
+      </h1>
+      <a href="#meats" class="btn btn--full margin-right-sm">Mira nuestras opciones</a>
+      <a href="#contact" class="btn btn--outline">Contactanos! &darr;</a>
+    </div>
+  </section>
+
+  <section class="section-meats" id="meats">
+    <div class="container">
+      <h2 class="heading-secondary">Ofrecemos gran variedad</h2>
+      <div class="meat-showcase grid grid--4-cols">
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-1.jpg)">
+          <p class="meat-name">Carne 1</p>
+          <p class="meat-details">Cortado en X y sazonado con Y</p>
+          <P class="meat-price">$50/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-2.jpg)">
+          <p class="meat-name">Carne 2</p>
+          <p class="meat-details">Cortado en X y sazonado con Y</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-3.jpg)">
+          <p class="meat-name">Carne 3</p>
+          <p class="meat-details">Cortado en X y sazonado con Y</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-4.jpg)">
+          <p class="meat-name">Carne 4</p>
+          <p class="meat-details">Cortado en X y sazonado con Y</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-5.jpg)">
+          <p class="meat-name">Carne 5</p>
+          <p class="meat-details">Cortado en X y sazonado con Y</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-1.jpg)">
+          <p class="meat-name">Carne 6</p>
+          <p class="meat-details">Cortado en X y sazonado con Y</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Crisps-1.jpg)">
+          <p class="meat-name">Papas</p>
+          <p class="meat-details">Onduladas listas para freir</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+        <div class="meat"
+          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Nugget-1.jpg)">
+          <p class="meat-name">Nuggets</p>
+          <p class="meat-details">Estilo bone de pollo</p>
+          <P class="meat-price">$##/kg</P>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-contact" id="contact">
+    <div class="container contact-us">
+      <h2 class="heading-contact">Contactanos!</h2>
+      <div class="grid grid--2-cols">
+        <div class="contact-text">
+          <p>
+            Acude al local cualquier día entre las 8 AM y las 8 PM, llamanos al 55 2760 3575 para entrega a domicilio o
+            mandanos un mensaje para ponernos en contacto
+          </p>
+        </div>
+        <div>
+          <form class="contacting-box" name="contact-details" netlify>
+            <div>
+              <label for="full-name">Nombre</label>
+              <input id="full-name" type="text" placeholder="Tu nombre" name="full-name" required />
+            </div>
+            <div>
+              <label for="phone">Telefono</label>
+              <input id="phone" type="tel" placeholder="(55) 1234 - 5678" pattern="([0-9]{2}) [0-9]{4}-[0-9]{4}"
+                name="email" />
+            </div>
+            <div>
+              <label for="email">Correo electronico</label>
+              <input id="email" type="email" placeholder="yo@ejemplo.com" name="email" required />
+            </div>
+            <div class="message-box">
+              <label for="message">¿En que podemos ayudarte?</label>
+              <textarea id="message" type="text" cols="40" rows="5" placeholder="Tu mensaje" name="message"
+                required></textarea>
+            </div>
+            <button class="btn btn--form">Contactanos</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container grid grid--3-cols">
+      <div class="footer-logo-col">
+        <a href="#" class="logo-bottom">
+          <img alt="Logo de la carniceria" src="img/mares-logo.png" />
+        </a>
+        <p class="copyright">
+          Copyright &copy; <span class="year">2021</span> por Carniceria Mares.
+          Todos los derechos reservados
+        </p>
+      </div>
+      <div>
+        <p class="footer-heading">Contactanos</p>
+        <address class="contacts">
+          <p class="address">
+            Avenida Cuatro, Santa Cruz Meyehualco, 09290 Ciudad de México, CDMX, México
+          </p>
+          <p>
+            <a class="footer-link" href="tel:55-2760-3575">55 2760 3575</a><br />
+            <a class="footer-link" href="mailto:null">Correo electronico</a>
+          </p>
+        </address>
+      </div>
+      <nav class="nav-col">
+        <p class="footer-heading">Sobre nosotros</p>
+        <ul class="footer-nav">
+          <li><a class="footer-link" href="#">Empleados</a></li>
+          <li><a class="footer-link"
+              href="https://www.google.com/search?hl=en-MX&gl=mx&q=CARNICERIA+MARES,+Av.+4,+Santa+Cruz+Meyehualco,+Iztapalapa,+09290+Ciudad+de+M%C3%A9xico,+CDMX&ludocid=18174196002907021595&lsig=AB86z5VODPttHTHVLJ-qrcl-PuZW#lrd=0x85d1fd6188a403c5:0xfc37b6f93f98e11b,1">Deja
+              una reseña</a></li>
+          <li><a class="footer-link"
+              href="https://www.google.com/maps/dir//CARNICERIA+MARES/@19.3461204,-99.1102414,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x85d1fd6188a403c5:0xfc37b6f93f98e11b!2m2!1d-99.0402009!2d19.3461338">Google
+              maps</a></li>
+          <li><a class="oh-no footer-link" href="img/cerdito.png"><span>Porn</span>Hub</a></li>
+        </ul>
+      </nav>
+  </footer>
+</body>
+
+</html>
