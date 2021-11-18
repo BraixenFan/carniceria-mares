@@ -1,5 +1,5 @@
 @media (max-width: 85em) {
-  .meat-showcase{
+  #meat-showcase{
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 63em) {
-  .meat-showcase{
+  #meat-showcase{
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -22,7 +22,7 @@
 }
 
 @media (max-width: 43em) {
-  .meat-showcase{
+  #meat-showcase{
     grid-template-columns: 1fr;
   }
 

@@ -8,8 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="queries.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
   <title>Carniceria</title>
 </head>
 
@@ -31,55 +31,8 @@
   <section class="section-meats" id="meats">
     <div class="container">
       <h2 class="heading-secondary">Ofrecemos gran variedad</h2>
-      <div class="meat-showcase grid grid--4-cols">
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-1.jpg)">
-          <p class="meat-name">Carne 1</p>
-          <p class="meat-details">Cortado en X y sazonado con Y</p>
-          <P class="meat-price">$50/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-2.jpg)">
-          <p class="meat-name">Carne 2</p>
-          <p class="meat-details">Cortado en X y sazonado con Y</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-3.jpg)">
-          <p class="meat-name">Carne 3</p>
-          <p class="meat-details">Cortado en X y sazonado con Y</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-4.jpg)">
-          <p class="meat-name">Carne 4</p>
-          <p class="meat-details">Cortado en X y sazonado con Y</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-5.jpg)">
-          <p class="meat-name">Carne 5</p>
-          <p class="meat-details">Cortado en X y sazonado con Y</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Meat-1.jpg)">
-          <p class="meat-name">Carne 6</p>
-          <p class="meat-details">Cortado en X y sazonado con Y</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Crisps-1.jpg)">
-          <p class="meat-name">Papas</p>
-          <p class="meat-details">Onduladas listas para freir</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
-        <div class="meat"
-          style="background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(img/meats/Nugget-1.jpg)">
-          <p class="meat-name">Nuggets</p>
-          <p class="meat-details">Estilo bone de pollo</p>
-          <P class="meat-price">$##/kg</P>
-        </div>
+      <div class="grid grid--4-cols" id="meat-showcase">
+
       </div>
     </div>
   </section>
@@ -95,7 +48,7 @@
           </p>
         </div>
         <div>
-          <form class="contacting-box" name="contact-details" netlify>
+          <form class="contacting-box" name="contact-details">
             <div>
               <label for="full-name">Nombre</label>
               <input id="full-name" type="text" placeholder="Tu nombre" name="full-name" required />
@@ -156,6 +109,10 @@
         </ul>
       </nav>
   </footer>
+
+  <script src="js/app.js"></script>
+
+
 </body>
 
 </html>

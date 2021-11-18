@@ -1,0 +1,22 @@
+{
+  "carnes": [
+      {
+          "Nombre": "Carne 1",
+          "Detalles": "Carne X sazonada en Y",
+          "Precio": "$25/kg",
+          "Imagen": "img/meats/Meat-1.jpg"
+      },
+      {
+          "Nombre": "Carne 2",
+          "Detalles": "Carne Z cortada en W",
+          "Precio": "$30/kg",
+          "Imagen": "img/meats/Meat-2.jpg"
+      },
+      {
+          "Nombre": "Epica prueba numero 3",
+          "Detalles": "Si funciono?",
+          "Precio": "$10 c/u",
+          "Imagen": "https://i.pinimg.com/474x/3a/e9/13/3ae913d2143c423e8bc05c49d4186578.jpg"
+      }
+  ]
+}
