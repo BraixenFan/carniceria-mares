@@ -1,0 +1,51 @@
+*{
+font-family: sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+  max-width: 150rem;
+  padding: 0 1.2rem;
+  margin: 0 auto;
+}
+
+.simple-form{
+  padding: 1.2rem;
+  margin-top: 2rem;
+  border: 3px solid #c30604;
+}
+
+.simple-form div{
+  margin: 0.8rem 0 0.8rem 0;
+}
+
+.message-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.simple-form label{
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.message-box textarea{
+  resize: none;
+}
+
+.submit-btn:enabled{
+  padding: 0.8rem;
+  display: inline-block;
+  width: 100%;
+  font-size: 2rem;
+  background-color: #c30604;
+  color: #fff;
+  border-radius: 9px;
+}
+
+.submit-btn:active, .submit-btn:hover{
+  background-color: #810402;
+}
